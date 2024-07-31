@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif; /* Optional: sets a clean, readable font */
+}
+
+/* Style for the main container */
+.main-container {
+    padding: 20px; /* Add padding around the container */
+    background-color: #fff; /* Background color for the container */
+    max-width: 800px; /* Optional: to limit the width of the container */
+    margin: 0 auto; /* Center align the container */
+}
+
+/* Style for each testimonial box */
+.testimonial {
+    padding: 15px; /* Padding inside each testimonial box */
+    border: 1px solid #ddd; /* Light border around the box */
+    background-color: #fafafa; /* Background color of each testimonial */
+    margin-bottom: 10px; /* Space between testimonial boxes */
+}
+
+/* Style for the testimonial text */
+.text {
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Font size for the testimonial text */
+    line-height: 1.5; /* Line height for readability */
+}
+
+/* Style for the author's name */
+.author {
+    text-align: right; /* Align the author's name to the right */
+    font-style: italic; /* Italicize the author's name */
+    margin: 10px 0 0; /* Margin to separate the author name from the text */
+    font-size: 14px; /* Slightly smaller font size for the author */
+}
